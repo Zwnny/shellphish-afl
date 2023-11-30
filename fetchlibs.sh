@@ -37,7 +37,7 @@ fetcharch() {
     MIRRORS="$DEF_MIRROR"
   elif [ $DISTRO == "debian" ]; then
     KEYRING=$DEBIAN_KEYRING
-    MIRRORS="http://ftp.us.debian.org/debian"
+    MIRRORS="http://archive.debian.org/debian"
   else
     echo "need a distro"
     exit 1
